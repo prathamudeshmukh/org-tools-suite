@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.otp</groupId>
 	<artifactId>org-tools-suite</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>org-tools-suite</name>
 	<description>Organizational Tools suite platform</description>
 
