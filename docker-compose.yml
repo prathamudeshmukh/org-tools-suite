@@ -1,0 +1,10 @@
+version: '2'
+networks:
+    database:
+        driver: bridge
+
+services:
+  appserver:
+    image: springio/asset-mgmt
+    ports:
+      - "8080:8080"
