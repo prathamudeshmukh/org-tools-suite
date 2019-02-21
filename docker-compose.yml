@@ -4,7 +4,14 @@ networks:
         driver: bridge
 
 services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: passwd
+
+
   appserver:
-    image: springio/asset-mgmt
+    image: springio/spring-boot-boilerplate
     ports:
       - "8080:8080"
